@@ -1,14 +1,31 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        app:showAsAction="never"/>
-    <item android:id="@+id/action_disconnect"
-        android:title="@string/action_disconnect"
-        android:orderInCategory="100"
-        app:showAsAction="never"
-        android:icon="@drawable/ic_lock" />
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_circle_black_36dp"
+        android:title="Profil" />
+
+    <item android:id="@+id/nav_course"
+        android:icon="@drawable/ic_book_black_36dp"
+        android:title="Cours" />
+
+    <item android:id="@+id/nav_finance"
+        android:icon="@drawable/ic_monetization_on_black_36dp"
+        android:title="Finance" />
+
+    <item android:id="@+id/nav_moodle"
+        android:icon="@drawable/ic_launch"
+        android:title="Moodle" />
+
+    <item android:id="@+id/nav_ressources"
+        android:icon="@drawable/ic_help_black_36dp"
+        android:title="Ressources" />
+
+    <item android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_settings_black_36dp"
+        android:title="Paramètres" />
+
+    <item android:id="@+id/nav_disconnect"
+        android:icon="@drawable/ic_exit_to_app_black_36dp"
+        android:title="Déconnexion" />
 </menu>

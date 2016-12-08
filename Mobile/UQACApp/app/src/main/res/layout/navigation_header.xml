@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#5A7410">
+
+    <TextView
+        android:text="julien.samson1@uqac.ca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:text="Julien Samson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:padding="10dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

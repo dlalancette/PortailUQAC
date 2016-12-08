@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">UQAC</string>
-    <string-array name="items">
-        <item>Profil</item>
-        <item>Cours</item>
-        <item>Message</item>
-        <item>Finances</item>
-        <item>Moodle</item>
-        <item>Inscription</item>
-        <item>Ressource</item>
-    </string-array>
-    <string name="drawer_open">Open navigation drawer</string>
-    <string name="drawer_close">Close navigation drawer</string>
-    <string name="action_settings">Paramètres</string>
-    <string name="action_disconnect">Déconnexion</string>
+    <string name="app_name">UQAC</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>
