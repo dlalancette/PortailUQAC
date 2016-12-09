@@ -89,7 +89,7 @@
                 android:layout_weight="0.16" />
 
             <Button
-                android:id="@+id/email_sign_in_button"
+                android:id="@+id/btn_connexion"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                 android:layout_weight="0.40" />
 
             <TextView
-                android:text="mot de passe oublié?"
+                android:text="mot de passe ou usagé oublié?"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView5"
@@ -108,7 +108,7 @@
                 android:autoLink="web" />
 
             <TextView
-                android:text="usagé oublié?"
+                android:text="Première fois?"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView6"
