@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/txt_bienvenue"
             android:textSize="36sp"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp" />
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
