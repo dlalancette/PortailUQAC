@@ -4,7 +4,7 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="uqac.css" rel="stylesheet" type="text/css">
+    <link href="css/uqac.css" rel="stylesheet" type="text/css">
   </head><body>
     <div class="container">
       <nav class="navbar navbar-inverse">
@@ -162,17 +162,17 @@
     <script src="js/index.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-      			$(".dropdown").hover(            
-      				function() {
-      					$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-      					$(this).toggleClass('open');        
-      				},
-      				function() {
-      					$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-      					$(this).toggleClass('open');       
-      				}
-      			);
-      		});
+              			$(".dropdown").hover(            
+              				function() {
+              					$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+              					$(this).toggleClass('open');        
+              				},
+              				function() {
+              					$('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+              					$(this).toggleClass('open');       
+              				}
+              			);
+              		});
     </script>
     <div class="section">
       <div class="container">
@@ -183,58 +183,44 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="section">
+    </div><div class="section"><div class="container"><div class="row"><div class="col-md-8"><div class="col-md-12 text-left" id="actu">
+              <p id="actutitre" class="text-center">Actualités</p>
+              <ul class="nav nav-justified nav-pills">
+                <li class="active">
+                  <a href="#">UQAC</a>
+                </li>
+                <li>
+                  <a href="#">Nationale</a>
+                </li>
+                <li>
+                  <a href="#">International</a>
+                </li>
+              </ul>
+              <hr>
+              <h3>Message Importants</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                <br>Ut enim ad minim veniam, quis nostrud</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                <br>Ut enim ad minim veniam, quis nostrud</p>
+              <hr><h3>Evenèments à venir</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                <br>Ut enim ad minim veniam, quis nostrud</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+                <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                <br>Ut enim ad minim veniam, quis nostrud</p><p>Lorem ipsum dolor sit amet, consectetur adipisici elit, <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud </p><blockquote><p>Lorem ipsum dolor sit amet</p><footer>Someone famous </footer></blockquote>
+            </div></div><div class="col-md-4"><div class="well"><h2>Solde du compte</h2><p>solde à payer : 0.00 $&nbsp;</p></div><div class="well"><h2>Résultats&nbsp;</h2><p>2BFI102 - Gestion financière : &nbsp;0 / 100<br>8IFG145 - Gestion de projets informatiques : 0 / 100<br>8INF468 - Progiciels de gestion intégrés : 0 / 100<br>8ROP515 - Recherche opérationnelle : 0 / 100<br><br>MOYENNE GENERALE : 0 / 100<br></p></div></div></div></div></div><div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6" id="actu">
-            <p id="actu" class="text-center">Actualités</p>
-            <ul class="nav nav-justified nav-pills">
-              <li class="active">
-                <a href="#">UQAC</a>
-              </li>
-              <li>
-                <a href="#">Nationale</a>
-              </li>
-              <li>
-                <a href="#">International</a>
-              </li>
-            </ul>
-            <hr>
-            <h3>Message Importants</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
-            <h3>Evenèments à venir</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
-          </div>
-          <div class="col-md-6 hidden-md text-right" id="cours">
-            <ol class="list-unstyled text-primary text-right" id="menu">
-              <li>Cours actif</li>
-              <li>Dossier d'admission</li>
-              <li>Dossier financier</li>
-              <li>Horaire de cours</li>
-              <li>Cheminent</li>
-              <li>Relevé de notes</li>
-              <li>TF UQAC</li>
-            </ol>
-            <ol class="list-unstyled text-primary" id="menu">
-              <li>Demande</li>
-              <li>Autorisation</li>
-              <li>Cours suivis</li>
-              <li>Bibliothécaire</li>
-              <li>Accès Bibliothèque</li>
-              <li>Paramètres sécurité</li>
-            </ol>
+          <div class="col-md-8">
+            
           </div>
         </div>
       </div>
     </div>
+    
     <footer class="section section-primary">
       <div class="container">
         <div class="row">
