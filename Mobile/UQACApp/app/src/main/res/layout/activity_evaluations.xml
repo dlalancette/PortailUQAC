@@ -253,7 +253,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_insert_chart_black_48dp"
+                    app:srcCompat="@drawable/ic_insert_chart_black_36dp"
                     android:id="@+id/imageButton"
                     android:layout_marginLeft="5dp" />
 
@@ -288,7 +288,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_reply_black_48dp"
+                    app:srcCompat="@drawable/ic_reply_black_36dp"
                     android:id="@+id/imageButton7"
                     android:background="@android:color/transparent"
                     android:layout_marginTop="15dp" />

@@ -63,7 +63,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_today_black_48dp"
+                    app:srcCompat="@drawable/ic_today_black_36dp"
                     android:id="@+id/imageButton3"
                     android:visibility="visible"
                     android:background="@android:color/background_light"
@@ -90,7 +90,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_card_travel_black_48dp"
+                    app:srcCompat="@drawable/ic_card_travel_black_36dp"
                     android:id="@+id/imageButton6"
                     android:visibility="visible"
                     android:background="@android:color/background_light"
@@ -145,7 +145,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_reply_black_48dp"
+                    app:srcCompat="@drawable/ic_reply_black_36dp"
                     android:id="@+id/imageButton7"
                     android:background="@android:color/transparent"
                     android:layout_marginTop="15dp" />
