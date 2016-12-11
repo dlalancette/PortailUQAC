@@ -12,7 +12,26 @@
  *   box-shadow : 0px 0px 10px black !important;
  * }
 */
-2BFI102 - Gestion financière ol {
+#liste {
+  border-width: 0px;
+}
+#MyTable {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+#UnCours {
+  border-width: 1px;
+  border-style: solid;
+  border-color: 337cbb;
+  border-radius: 5px;
+}
+#MyTable .onglet {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+ol {
   border-width: 2px;
   border-style: solid;
   border-color: #5bc0d;
@@ -21,7 +40,6 @@
   border-width: 1px;
   border-style: solid;
   border-color: black;
-  border-bottom-width: 0px;
 }
 #actutitre {
   border-width: 1px;
